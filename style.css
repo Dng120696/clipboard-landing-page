@@ -25,6 +25,7 @@ body{
   margin: 0;
   text-align: center;
   min-height: 100vh;
+  font-size: 18px;
 }
 /* MAIN */
 .container{
@@ -43,7 +44,7 @@ p,a{
   font-weight: 400;
 }
 section{
-  margin:5rem 0 6rem 0;
+  margin:8rem 0 6rem 0;
 }
 img{
   max-width: 100%;
@@ -68,7 +69,7 @@ img{
 .header{
   background:url(./images/bg-header-mobile.png)no-repeat center center;
   background-size: cover;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   max-width: 100%;
 }
 .header img.logo{
@@ -134,7 +135,7 @@ div.button.flex{
 
 @media (min-width:700px) {
   .container-small{
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
   }
   .header{
@@ -153,7 +154,7 @@ div.button.flex{
     grid-template-columns: repeat(2,1fr);
   }
   .btn{
-    width: 15rem;
+    width: 18rem;
   }
  .button .btn:first-child{
   margin-right: 2rem;
@@ -175,6 +176,9 @@ div.button.flex{
     display: inline-flex;
 
   }
+  .footer{
+    padding: 2rem 0;
+  }
   .footer-second-col{
     flex-direction: row;
     justify-content: space-between;
@@ -189,7 +193,7 @@ div.button.flex{
  li{
   align-self: flex-start;
  }
-  
+
   
   
   
